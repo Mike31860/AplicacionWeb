@@ -4,56 +4,63 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1 style="color:#FFFFFF">Lista de Clientes</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" style="color:#FFFFFF">Crear Nuevo Cliente</a>
 </p>
 <table class="table">
+
+    <style>
+        body {
+            background-image: url(" https://handluggageonly.co.uk/wp-content/uploads/2017/12/Hand-Luggage-Only-20.jpg");
+        }
+    </style>
     <thead>
         <tr>
-            <th>
+            <th style="color:#FEFE00" ; >
                 @Html.DisplayNameFor(model => model.Nombre)
             </th>
-            <th>
+            <th style="color:#FEFE00" ; >
                 @Html.DisplayNameFor(model => model.Necesidad)
             </th>
-            <th>
+            <th style="color:#FEFE00" ; >
                 @Html.DisplayNameFor(model => model.TipoEvento)
             </th>
-            <th>
+            <th style="color:#FEFE00" ; >
                 @Html.DisplayNameFor(model => model.Donde)
             </th>
-            <th>
+            <th style="color:#FEFE00" ; >
                 @Html.DisplayNameFor(model => model.Cuantos)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nombre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Necesidad)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TipoEvento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Donde)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cuantos)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="color:#FFFFFF ; >
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td style="color:#FFFFFF" ;>
+                    @Html.DisplayFor(modelItem => item.Necesidad)
+                </td>
+                <td style="color:#FFFFFF" ; >
+                    @Html.DisplayFor(modelItem => item.TipoEvento)
+                </td>
+                <td style="color:#FFFFFF" ; >
+                    @Html.DisplayFor(modelItem => item.Donde)
+                </td>
+                <td style="color:#FFFFFF" ; >
+                    @Html.DisplayFor(modelItem => item.Cuantos)
+                </td>
+                <td>
+                    <a asp-action="Edit" style="color:#FFFFFF" ;  asp-route-id="@item.Id"> Edit</a> |
+                    <a asp-action="Details"style="color:#FFFFFF" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" style="color:#FFFFFF" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
