@@ -29,3 +29,8 @@ C:\Users\Miguel\Desktop\Semestres\Semestre 5\Proyecto Integrador\AplicacionWebMi
 C:\Users\Miguel\Desktop\Semestres\Semestre 5\Proyecto Integrador\AplicacionWebMiguel\MiguelRomeroWeb\MiguelRomeroWeb\obj\Debug\netcoreapp2.2\MiguelRomeroWeb.pdb
 C:\Users\Miguel\Desktop\Semestres\Semestre 5\Proyecto Integrador\AplicacionWebMiguel\MiguelRomeroWeb\MiguelRomeroWeb\obj\Debug\netcoreapp2.2\MiguelRomeroWeb.csproj.CopyComplete
 C:\Users\Miguel\Desktop\Semestres\Semestre 5\Proyecto Integrador\AplicacionWebMiguel\MiguelRomeroWeb\MiguelRomeroWeb\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\Index.g.cshtml.cs
+C:\Users\Miguel\Desktop\Semestres\Semestre 5\Proyecto Integrador\AplicacionWebMiguel\MiguelRomeroWeb\MiguelRomeroWeb\obj\Debug\netcoreapp2.2\Razor\Views\Informacion\Create.g.cshtml.cs
+C:\Users\Miguel\Desktop\Semestres\Semestre 5\Proyecto Integrador\AplicacionWebMiguel\MiguelRomeroWeb\MiguelRomeroWeb\obj\Debug\netcoreapp2.2\Razor\Views\Informacion\Delete.g.cshtml.cs
+C:\Users\Miguel\Desktop\Semestres\Semestre 5\Proyecto Integrador\AplicacionWebMiguel\MiguelRomeroWeb\MiguelRomeroWeb\obj\Debug\netcoreapp2.2\Razor\Views\Informacion\Details.g.cshtml.cs
+C:\Users\Miguel\Desktop\Semestres\Semestre 5\Proyecto Integrador\AplicacionWebMiguel\MiguelRomeroWeb\MiguelRomeroWeb\obj\Debug\netcoreapp2.2\Razor\Views\Informacion\Edit.g.cshtml.cs
+C:\Users\Miguel\Desktop\Semestres\Semestre 5\Proyecto Integrador\AplicacionWebMiguel\MiguelRomeroWeb\MiguelRomeroWeb\obj\Debug\netcoreapp2.2\Razor\Views\Informacion\Index.g.cshtml.cs

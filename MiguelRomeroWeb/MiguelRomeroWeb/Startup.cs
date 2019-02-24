@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using MiguelRomeroWeb.Models;
 
 namespace MiguelRomeroWeb
 {
@@ -33,6 +35,9 @@ namespace MiguelRomeroWeb
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.AddDbContext<MiguelRomeroWebContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("MiguelRomeroWebContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
